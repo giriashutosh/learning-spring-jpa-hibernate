@@ -1,4 +1,4 @@
-package com.ashutosh.springboot.learnspringjpaandhibernate.course.jdbc;
+package com.ashutosh.springboot.learnspringjpaandhibernate.course.jpa;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -18,6 +18,4 @@ public class CourseJdbcCommandLineRunner implements CommandLineRunner {
         repository.deleteById(1);
         System.out.println(repository.findById(2));
     }
-
-
 }

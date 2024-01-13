@@ -1,5 +1,6 @@
-package com.ashutosh.springboot.learnspringjpaandhibernate.course.jdbc;
+package com.ashutosh.springboot.learnspringjpaandhibernate.course.jpa;
 
+import com.ashutosh.springboot.learnspringjpaandhibernate.course.jdbc.CourseJdbcCommandLineRunner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
