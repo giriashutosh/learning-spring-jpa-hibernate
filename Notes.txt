@@ -1,3 +1,7 @@
 insert into course (id, name, author)
 values (1, 'Learn AWS', 'ashutosh')
 SELECT * FROM COURSE
+. In jdbc we have to write a lot of sql queries and java code.
+  In spring jdbc we have to write a lot of sql queries but less java code.
+  In JPA we have to just map the @Entity to the table. no sql queries. using EntityManager
+  In SpringDataJPA it is much simpler than JPA take care of everything by itself
